@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "fr.shoqapik.blockend.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TheEndBiomeSourceMixin",
+    "EndDragonFigthMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "blockend.mixins.refmap.json"
+}
